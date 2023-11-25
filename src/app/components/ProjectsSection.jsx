@@ -67,14 +67,12 @@ const ProjectsSection = () => {
   const isInView = useInView(ref, { once: true });
 
   const handleTagChange = (newTag) => {
-    console.log("Clicked on tag:", newTag);
     setTag(newTag);
   };
 
   const filteredProjects = projectsData.filter((project) =>
     project.tag.includes(tag)
   );
-  console.log("Filtered Projects:", filteredProjects);
 
   const cardVariants = {
     initial: { y: 50, opacity: 0 },

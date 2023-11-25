@@ -8,7 +8,12 @@ const FeaturedProjectsSection = () => {
         <h2 className="text-4xl font-bold mb-8">Proyectos Destacados</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           <div className="mb-8">
-            <Image src="/images/projects/1.png" width={400} height={300} />
+            <Image
+              src="/images/projects/1.png"
+              width={400}
+              height={300}
+              alt=""
+            />
             <h3 className="text-xl font-semibold mt-4">Nombre del Proyecto</h3>
             <p className="text-gray-400">Breve descripción del proyecto.</p>
           </div>
