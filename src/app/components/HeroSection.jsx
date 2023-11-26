@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+import { FloatingWhatsApp } from "react-floating-whatsapp";
 import { TypeAnimation } from "react-type-animation";
 
 const HeroSection = () => {
@@ -55,6 +56,15 @@ const HeroSection = () => {
                 Descargar CV
               </span>
             </Link>
+            <FloatingWhatsApp
+              className="text-black"
+              phoneNumber="957282477"
+              accountName="Viviana Estrada"
+              chatMessage="¡Hola! 😊 ¿En qué puedo ayudarte en tu próximo proyecto"
+              avatar="https://i.pravatar.cc/400?img=34"
+              statusMessage="En línea hace una hora"
+              placeholder="Escribe un mensaje..."
+            />
           </div>
         </motion.div>
         <motion.div
